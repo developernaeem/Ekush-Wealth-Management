@@ -1,0 +1,66 @@
+.basic-mutual-fund .chapter-bottom-card{
+	background-color: #fff;
+}
+.mobile_menu{
+	display: none;
+}
+@media only screen and (max-width: 991px) {
+	.mobile-logo img {
+	    width: 144px;
+	    height: 70px;
+	}
+	.bannerMain {
+	    top: -130px;
+	}
+	.mobile_menu,
+	.cr-megamenu-wrap {
+		display: block;
+	}
+	.mobile_menu ul {
+	    padding: 0px 0px 0px 25px;
+	}
+	.mobile_menu_area ul li {
+	    display: inline-block;
+	    padding: 0 12px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.breadcrumb-area {
+	    height: 150px;
+	}
+	.cal-header h3{
+		color: #fff;
+	}
+	.basic-mutual-fund .chapter-index {
+	    margin-top: -210px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.basic-mutual-fund .investment .row {
+	    padding: 80px 30px 10px;
+	}
+	.basic-mutual-fund .chapter-index {
+	    margin-top: -246px;
+	}
+	.basic-mutual-fund .investment .row {
+	    padding: 0px 50px 10px;
+	}
+	.basic-mutual-fund .curve{
+		display: none;
+	}
+	.basic-mutual-fund .investment{
+		padding-top: 50px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	h2, h3 {
+		font-size: 20px;
+	}
+	.basic-mutual-fund .chapter-index {
+	    margin-top: -280px;
+	}
+	.basic-mutual-fund .investment .row {
+	    padding: 0px 15px 10px;
+	}
+}
+
